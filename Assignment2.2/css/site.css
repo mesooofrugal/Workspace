@@ -1,0 +1,146 @@
+header{background-image: url(../images/hand-grips-a-gardening-tool-to-cut-back-a-plant.jpg);
+    background-size: cover;
+}
+
+header{background-color: rgb(65,132,42);
+    color: #eee;
+    background-size: cover;
+    background-position: center;}
+
+
+nav{font-family: century, serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    float: left;
+    display:list-item;
+    list-style-type: none;
+}
+
+nav a:hover{text-shadow: 0px 0px 1px rgb(20,70,20);
+list-style-type: none;}
+
+footer>nav{font-family: century, serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: block;
+}
+
+h1{color: #eee;
+    font-family: century, serif;
+    font-size: 3em;
+    font-weight: 500;
+    line-height: 400%;
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 1px;
+    text-align: center;
+    background-color: rgba(5, 72, 12,.05);
+}
+h1:hover{text-shadow: 2px 2px 10px white;}
+
+main{overflow: hidden;  
+border-left: 5px solid rgb(158,194,143);}
+
+h2{font-family: gabriola, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;}
+
+#muticol section{margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: 100px;
+        margin-right: 100px;}
+
+h3{overflow: auto;
+    font-family: gabriola, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 0;}
+
+h4{font-family: gabriola, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;}
+
+dt{font-family: gabriola, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;}
+
+ul{padding: 0;
+    list-style: none;}
+
+footer{font-family: century, serif;
+        font-size: smaller;
+        background-color: rgb(65,132,42);
+        color: #eee;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-top: 20px;
+    overflow: 100%}
+        
+footer>div{display: inline-block;
+            width: 33%;}
+
+#copyright{clear: both;
+        font-family: serif;
+            font-style: italic;
+            text-align: center;}
+
+
+#heroimg{overflow: auto;
+    height: 400px;
+        object-fit:cover;
+        object-position: center;}
+
+.zengarden img{height: 100%;
+width: 100%;
+object-fit:cover;
+object-position: center;
+}
+
+.item33{float: left;
+    width: 33%;}
+
+.item25{
+color: rbg(35,102,12);
+float: left;
+width: 10%;}
+
+.icon{display:block;
+    font-size: 3em;}
+
+#plants{padding-left: 50px;}
+
+#category img{width: 160px;
+            height: 160px;
+            float: left;
+            padding-bottom: 25px;
+            padding-right: 25px;
+            }
+
+.categories{float: left;
+        width: 50%;}
+
+#wrapper{padding-left: 50px;
+padding-right: 50px;}
+
+#address{clear: both;
+    padding-left: 40px;}
+
+.mobile{display: none;}
+

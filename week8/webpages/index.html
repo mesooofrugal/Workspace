@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, inital-scale=1"/>
+        <title> Webpage 1</title>
+    <!--<link rel="stylesheet" media= "screen" href="../css/desktop.css">
+        <link rel="stylesheet" media= "screen and (min-width: 481px) and (max-width:768px)" href="../css/tablet.css">
+        <link rel="stylesheet" media= "screen and (min-width: 0px) and (max-width:480px)" href="../css/mobile.css"> -->
+        <!-- control shift i -->
+<!--<style>
+    @media screen and (max-width:480px){
+       body{ 
+        background-color: red;
+        }
+    }
+</style>-->
+    <link rel= "stylesheet" media="screen" href= "../css/tablet.css" >
+    </head>
+    <body>
+        <p> Some information</p>
+        <!--<script>
+            alert("The calculate miles per gallon Application");
+            let miles =prompt("Enter miles driven");
+            console.log(typeof(miles));
+            miles= parseInt (miles);
+        </script> -->
+        <!-- control shift i ... console-->
+        <script>
+            const today = new Date ();
+            document.write(`Today is ${today.toDateString()}.`);
+        </script>
+        <noscript>
+            <h2>To get from this website, please enable JavaScprit in your broswer</h2>
+        </noscript>
+    </body>
+    <main>
+        <!-- post is private, get is public-->
+        <form action="" method="post">
+            <label>Email Address::</label>
+            <input type="text" name="emailAddress" id="emailAddress">
+            <span id ="emailAddressError">*</span> <br>
+            <label> Re-enter Email Address::</label>
+            <input type="text" name="reemailAddress" id="reemailAddress">
+            <span id ="emailAddressError">*</span><br>
+            <label> UserName ::</label>
+            <input type="text" name="username" id="username">
+            <span id ="usernameError">*</span> <br>
+            <input type="submit" value="Registeration">
+        </form>
+    </main>
+</html>

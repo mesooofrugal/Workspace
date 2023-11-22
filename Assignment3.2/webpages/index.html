@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Change Calculator</title>
+        <link rel="stylesheet" media= "screen" href="../">
+    </head>
+    <body onload="processEntries()">
+        <div class = "change-calculator">
+            <h1>Change Calculator</h1>
+
+            <div class = "main-wrapper">
+                <form>
+                    <div>
+                        <label for = "enterAmount">Enter amount of Change due (0-99): </label>
+                        <input type = "text"
+                        id = "enterAmount"
+                        placeholder="0.00">
+                        <button type = "button" class = "calculate-button" id="calculate-button">Calculate</button>
+                    </div>
+
+                    <div>
+                        <label for = "quarters:">Quarters:</label>
+                        <input type = "text"
+                        id = "quarters"
+                        placeholder="0.00">
+                    </div>
+
+                    <div>
+                        <label for = "dimes">Dimes:</label>
+                        <input type = "text"
+                        id = "dimes"
+                        placeholder="0.00">
+                    </div>
+
+                    <div>
+                        <label for = "nickels">Nickels:</label>
+                        <input type = "text"
+                        id = "nickels"
+                        placeholder="0.00">
+                    </div>
+
+                    <div>
+                        <label for = "pennies">Pennies:</label>
+                        <input type = "text"
+                        id = "pennies"
+                        placeholder="0.00">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="../js/index.js"></script>
+        <footer>
+        <div>
+            "&copy; Lisa Huynh/N01156065" 2023
+        </div>
+    </footer>
+    </body>
+</html>

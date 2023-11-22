@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Title</title>
+    </head>
+    <body>
+        <script>
+            // example1
+            /*var i =0;
+            const totals= [];
+            totals[0] = 21;
+            totals[1] = 23;
+            totals[2] = 45;
+            totals[3] = 65;
+            totals[totals.length] =89;
+
+            const values = [21,22,25,26];
+
+            alert(totals.length);
+            alert(values.length);*/
+
+            //example2
+            const numbers = [];
+            for(let i =0; i< 10;i++)
+            {
+                numbers [i] = i+1;
+            }
+            let displayString ="";
+            for(let i=0;i<numbers.length; i++)
+            {
+                displayString += numbers[i] + "   ";
+            }
+
+            alert(displayString);
+            
+            let displayNumbers="";
+            for(let i in numbers)
+            {
+                displayNumbers += numbers[i] + "   ";
+            }
+            alert(displayNumbers);
+
+            for(let values of numbers)
+            {
+                sum += value;
+            }
+            alert (sum);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sales Tax Calculator</title>
+        <link rel="stylesheet" media= "screen" href="../">
+    </head>
+    <body onload="processEntries()">
+        <div class = "sales-calculator">
+            <h1>Sales Tax Calculator</h1>
+            <h2>Enter Subtotal and Tax Rate and Click "Calculate"</h2>
+
+            <div class = "main-wrapper">
+                <form>
+                    <div>
+                        <label for = "Subtotal">Subtotal:</label>
+                        <input type = "text"
+                        id = "subtotal"
+                        placeholder="0.00">
+                    </div>
+
+                    <div>
+                        <label for = "taxrate">Tax Rate:</label>
+                        <input type = "text"
+                        id = "taxrate"
+                        placeholder="0.00">
+                    </div>
+
+                    <div>
+                        <label for = "salestax">Sales Tax:</label>
+                        <input type = "text"
+                        id = "salestax"
+                        placeholder="0.00">
+                    </div>
+
+                    <div>
+                        <label for = "total">Total:</label>
+                        <input type = "text"
+                        id = "total"
+                        placeholder="0.00">
+                    </div>
+                </form>
+            </div>
+            <button type = "button" class = "main-button" id="calculate-button">Calculate</button>
+            <button type = "button" class = "clear-button" id="clear-button">Clear</button>
+        </div>
+        <script src="../js/index.js"></script>
+        <footer>
+        <div>
+            "&copy; Lisa Huynh/N01156065" 2023
+        </div>
+    </footer>
+    </body>
+</html>

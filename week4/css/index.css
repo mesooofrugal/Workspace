@@ -1,0 +1,20 @@
+h1{
+    border: 2px solid blue;
+    padding: 0px 50px 20px;
+    /* top, right/left, bottom*/
+    margin-bottom: 20px;
+}
+
+p{
+    border-radius: 10px;
+    border: 2px dashed gold;
+    box-shadow: 5px -10px green;
+    /* negative sign for left side*/
+}
+
+body{
+    background-image: url(../images/clouds.jpg);
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.0);
+}

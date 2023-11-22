@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Change Calculator</title>
+        <link rel="stylesheet" media= "screen" href="../">
+    </head>
+    <body onload="processEntries()">
+        <div class = "incometax-calculator">
+            <h1>Income Tax Calculator</h1>
+
+            <div class = "main-wrapper">
+                <form>
+                    <div>
+                        <label for = "enterIncome">Enter taxable income: </label>
+                        <input type = "text"
+                        id = "enterIncome"
+                        placeholder="0.00">
+                        <button type = "button" class = "calculate-button" id="calculate-button">Calculate</button>
+                    </div>
+
+                    <div>
+                        <label for = "incomeTaxOwed">Income Tax Owed:</label>
+                        <input type = "text"
+                        id = "incomeTaxowed"
+                        placeholder="0.00">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+        <script src="../js/index.js"></script>
+        <footer>
+        <div>
+            "&copy; Lisa Huynh/N01156065" 2023
+        </div>
+    </footer>
+    </body>
+</html>

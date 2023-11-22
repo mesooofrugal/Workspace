@@ -1,0 +1,22 @@
+body{background-image: url(../images/canadianflag.png);
+    background-size: cover;
+}
+
+h1{font-size: 60px;
+    text-align: center;
+    opacity: 0.25;
+}
+
+h2{font-size: 90px;
+    text-align: center;
+    opacity: 0.25;
+}
+
+hr{
+    background: blue ;
+    opacity: 0.25;
+    padding: 2px;
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 200px;
+}

@@ -1,0 +1,25 @@
+img{max-width:100%;}
+
+h1{font-size: 50px;
+    text-align: center;}
+
+nav ul{padding:0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;}
+
+nav ul li{background-color: #FF6600;
+    border-radius: 1em;
+    list-style-type: none;
+    margin: 0.3em;
+    padding: 0.4em;
+    text-align: center;}
+
+nav li a{color: #FFFFFF;
+        text-decoration: none;}
+
+.mobile{display:inline;}
+
+hr{background-color: #FF6600;
+    height: 0.5em;
+    padding-left: 50px;
+    padding-right: 50px;}

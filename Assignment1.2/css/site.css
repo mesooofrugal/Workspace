@@ -1,0 +1,40 @@
+header{background-color: rgb(65,132,42);
+    color: #eee;}
+
+nav{font-family: century, serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none;}
+
+h1{font-family: century, serif;
+    font-size: 3em;
+    font-weight: 500;
+    line-height: 400%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;}
+
+h2 {font-family: gabriola, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;}
+
+h3{font-family: gabriola, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;}
+dt{font-family: gabriola, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;}
+
+footer{font-family: century, serif;
+        font-size: smaller;
+        background-color: rgb(65,132,42);
+        color: #eee;}
+
+#quicklinks{text-align: center;}
+
+#copyright{font-family: serif;
+            font-style: italic;
+            text-align: center;}
